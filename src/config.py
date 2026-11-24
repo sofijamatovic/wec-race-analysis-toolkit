@@ -5,6 +5,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_RAW = ROOT / "data" / "raw"
 DB_PATH = ROOT / "data" / "wec.db"
 SCHEMA_PATH = ROOT / "sql" / "schema.sql"
+VIEWS_PATH = ROOT / "sql" / "views.sql"
+DATA_EXPORT = ROOT / "data" / "export"
 
 # Al Kamel Systems publishes all official FIA WEC timing documents here.
 # The results website (fiawec.alkamelsystems.com) reads this JSON manifest.
